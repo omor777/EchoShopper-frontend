@@ -17,6 +17,12 @@ const authSlice = createSlice({
     singInUser(state, action) {
       state.user = action.payload;
     },
+    singOutUser(state, action) {
+      state.user = null;
+      state.loading = "idle";
+      state.error = null;
+      state.isLoggedIn = false;
+    },
     setLoading(state, action) {
       state.loading = action.payload;
     },
@@ -29,7 +35,13 @@ const authSlice = createSlice({
   },
 });
 
-export const { createNewUser, setLoading, setError, setIsLoggedIn,singInUser } =
-  authSlice.actions;
+export const {
+  createNewUser,
+  singInUser,
+  singOutUser,
+  setLoading,
+  setError,
+  setIsLoggedIn,
+} = authSlice.actions;
 
 export default authSlice.reducer;
