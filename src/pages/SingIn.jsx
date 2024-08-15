@@ -1,5 +1,8 @@
 import { Button, HR, Label, TextInput } from "flowbite-react";
-import { createUserWithEmailAndPassword } from "firebase/auth";
+import {
+  createUserWithEmailAndPassword,
+  signInWithEmailAndPassword,
+} from "firebase/auth";
 import { useForm } from "react-hook-form";
 import { MdEmail } from "react-icons/md";
 import { TbPasswordUser } from "react-icons/tb";
@@ -8,38 +11,42 @@ import { useDispatch, useSelector } from "react-redux";
 import {
   createNewUser,
   setError,
+  setIsLoggedIn,
   setLoading,
+  singInUser,
 } from "../features/auth/authSlice";
 import { useNavigate } from "react-router-dom";
 import { toast } from "react-toastify";
-const SingUp = () => {
+
+const SingIn = () => {
   const { handleSubmit, register } = useForm({
     defaultValues: {
       email: "",
       password: "",
     },
   });
+
   const { loading, error } = useSelector((state) => state.auth);
-  const dispatch = useDispatch();
   const navigate = useNavigate();
+  const dispatch = useDispatch();
 
   const handleSingUpUser = async ({ email, password }) => {
     dispatch(setLoading("pending"));
     try {
-      const { user } = await createUserWithEmailAndPassword(
-        auth,
-        email,
-        password
-      );
-      const newUser = {
+      const { user } = await signInWithEmailAndPassword(auth, email, password);
+
+      const loggedInUser = {
         email: user.email,
         createdAt: user.metadata.createdAt,
       };
-      toast.success("Sing up successful");
+
+      toast.success("Sing in successful");
       dispatch(setLoading("succeeded"));
-      dispatch(createNewUser(newUser));
+      dispatch(setIsLoggedIn(true));
+      dispatch(singInUser(loggedInUser));
       navigate("/");
     } catch (e) {
+      // console.dir(e?.message);
       console.error(e);
       dispatch(setError(e?.message));
       toast.error(error);
@@ -47,11 +54,10 @@ const SingUp = () => {
       dispatch(setLoading("idle"));
     }
   };
-
   return (
     <div className="bg-white p-8 rounded-md w-full max-w-4xl mx-auto">
       <h1 className="text-center text-[clamp(32px,4vw,50px)] font-semibold">
-        Sing Up
+        Sing In
       </h1>
       <form
         onSubmit={handleSubmit(handleSingUpUser)}
@@ -85,6 +91,10 @@ const SingUp = () => {
                 value: true,
                 message: "password is required!",
               },
+              minLength: {
+                value: 6,
+                message: "password  minimum 6 character is required!",
+              },
             })}
             id="password"
             type="password"
@@ -93,11 +103,11 @@ const SingUp = () => {
           />
         </div>
         <Button disabled={loading === "pending"} type="submit" fullSized>
-          Sing Up
+          Sing In
         </Button>
       </form>
     </div>
   );
 };
 
-export default SingUp;
+export default SingIn;

@@ -17,7 +17,7 @@ const NavigationBar = () => {
         <Navbar.Link active={pathname === "/"} as={Link} to="/">
           Home
         </Navbar.Link>
-        <Navbar.Link active={pathname === "/singIn"} as={Link} to="/singIn">
+        <Navbar.Link active={pathname === "/singIn"} as={Link} to="/signIn">
           Sing In
         </Navbar.Link>
         <Navbar.Link active={pathname === "/singUp"} as={Link} to="/singUp">
