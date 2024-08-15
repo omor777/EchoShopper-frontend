@@ -2,6 +2,7 @@ import { createBrowserRouter } from "react-router-dom";
 import Root from "../layouts/Root";
 import SingUp from "../pages/SingUp";
 import SingIn from "../pages/SingIn";
+import Home from "../pages/Home";
 
 export const routes = createBrowserRouter([
   {
@@ -11,7 +12,7 @@ export const routes = createBrowserRouter([
     children: [
       {
         path: "/",
-        element: <span>Home</span>,
+        element: <Home />,
       },
       {
         path: "/singUp",

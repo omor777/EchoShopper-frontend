@@ -1,0 +1,362 @@
+[
+  {
+    "name": "Ergonomic Office Chair",
+    "image": "https://i.ibb.co/hHqmVhc/2151039316.jpg",
+    "description": "Comfortable ergonomic office chair with adjustable lumbar support.",
+    "price": 149.99,
+    "category": "Furniture",
+    "brand": "ComfortPlus",
+    "rating": 4.5
+  },
+  {
+    "name": "Modern Coffee Table",
+    "image": "https://i.ibb.co/hHqmVhc/2151039316.jpg",
+    "description": "Stylish modern coffee table made of solid wood with a glass top.",
+    "price": 99.99,
+    "category": "Furniture",
+    "brand": "ComfortPlus",
+    "rating": 4.6
+  },
+  {
+    "name": "Convertible Sofa Bed",
+    "image": "https://i.ibb.co/hHqmVhc/2151039316.jpg",
+    "description": "Sleek convertible sofa bed with soft cushions and a sturdy frame.",
+    "price": 349.99,
+    "category": "Furniture",
+    "brand": "SleepWell",
+    "rating": 4.7
+  },
+  {
+    "name": "Wooden Bookshelf",
+    "image": "https://i.ibb.co/hHqmVhc/2151039316.jpg",
+    "description": "Elegant wooden bookshelf with five adjustable shelves.",
+    "price": 179.99,
+    "category": "Furniture",
+    "brand": "ComfortPlus",
+    "rating": 4.4
+  },
+  {
+    "name": "Dining Table Set",
+    "image": "https://i.ibb.co/hHqmVhc/2151039316.jpg",
+    "description": "Modern dining table set with a tempered glass top and six chairs.",
+    "price": 499.99,
+    "category": "Furniture",
+    "brand": "SleepWell",
+    "rating": 4.8
+  },
+  {
+    "name": "Recliner Chair",
+    "image": "https://i.ibb.co/hHqmVhc/2151039316.jpg",
+    "description": "Comfortable recliner chair with plush padding and adjustable positions.",
+    "price": 279.99,
+    "category": "Furniture",
+    "brand": "SleepWell",
+    "rating": 4.6
+  },
+  {
+    "name": "Gaming Chair",
+    "image": "https://i.ibb.co/hHqmVhc/2151039316.jpg",
+    "description": "Ergonomic gaming chair with lumbar support and adjustable armrests.",
+    "price": 199.99,
+    "category": "Furniture",
+    "brand": "ComfortPlus",
+    "rating": 4.7
+  },
+  {
+    "name": "Smartphone A12",
+    "image": "https://i.ibb.co/hHqmVhc/2151039316.jpg",
+    "description": "Affordable smartphone with 64GB storage and 12MP camera.",
+    "price": 299.99,
+    "category": "Electronics",
+    "brand": "TechWave",
+    "rating": 4.5
+  },
+  {
+    "name": "Wireless Earbuds X1",
+    "image": "https://i.ibb.co/hHqmVhc/2151039316.jpg",
+    "description": "True wireless earbuds with active noise cancellation.",
+    "price": 129.99,
+    "category": "Electronics",
+    "brand": "TechWave",
+    "rating": 4.7
+  },
+  {
+    "name": "4K Smart TV",
+    "image": "https://i.ibb.co/hHqmVhc/2151039316.jpg",
+    "description": "55-inch 4K Smart TV with HDR and voice control.",
+    "price": 799.99,
+    "category": "Electronics",
+    "brand": "TechWave",
+    "rating": 4.8
+  },
+  {
+    "name": "Laptop Pro 15",
+    "image": "https://i.ibb.co/hHqmVhc/2151039316.jpg",
+    "description": "High-performance laptop with 16GB RAM and 512GB SSD.",
+    "price": 1499.99,
+    "category": "Electronics",
+    "brand": "TechWave",
+    "rating": 4.9
+  },
+  {
+    "name": "Smartwatch S7",
+    "image": "https://i.ibb.co/hHqmVhc/2151039316.jpg",
+    "description": "Advanced smartwatch with heart rate monitoring and GPS.",
+    "price": 249.99,
+    "category": "Electronics",
+    "brand": "GizmoGear",
+    "rating": 4.6
+  },
+  {
+    "name": "Noise-Cancelling Headphones",
+    "image": "https://i.ibb.co/hHqmVhc/2151039316.jpg",
+    "description": "Premium over-ear headphones with noise cancellation.",
+    "price": 299.99,
+    "category": "Electronics",
+    "brand": "GizmoGear",
+    "rating": 4.7
+  },
+  {
+    "name": "Bluetooth Speaker Mini",
+    "image": "https://i.ibb.co/hHqmVhc/2151039316.jpg",
+    "description": "Portable Bluetooth speaker with powerful bass and 12-hour battery life.",
+    "price": 89.99,
+    "category": "Electronics",
+    "brand": "GizmoGear",
+    "rating": 4.5
+  },
+  {
+    "name": "Tablet Pro 10.5",
+    "image": "https://i.ibb.co/hHqmVhc/2151039316.jpg",
+    "description": "10.5-inch tablet with 128GB storage and stylus support.",
+    "price": 599.99,
+    "category": "Electronics",
+    "brand": "GizmoGear",
+    "rating": 4.8
+  },
+  {
+    "name": "Gaming Console X",
+    "image": "https://i.ibb.co/hHqmVhc/2151039316.jpg",
+    "description": "Next-gen gaming console with 4K gaming and 1TB storage.",
+    "price": 499.99,
+    "category": "Electronics",
+    "brand": "NextPlay",
+    "rating": 4.9
+  },
+  {
+    "name": "VR Headset 2.0",
+    "image": "https://i.ibb.co/hHqmVhc/2151039316.jpg",
+    "description": "Virtual reality headset with advanced tracking and immersive display.",
+    "price": 399.99,
+    "category": "Electronics",
+    "brand": "NextPlay",
+    "rating": 4.7
+  },
+  {
+    "name": "Smart Home Security Camera",
+    "image": "https://i.ibb.co/hHqmVhc/2151039316.jpg",
+    "description": "1080p smart security camera with motion detection and night vision.",
+    "price": 149.99,
+    "category": "Electronics",
+    "brand": "NextPlay",
+    "rating": 4.6
+  },
+  {
+    "name": "Wireless Charging Pad",
+    "image": "https://i.ibb.co/hHqmVhc/2151039316.jpg",
+    "description": "Fast wireless charging pad for smartphones and wearables.",
+    "price": 49.99,
+    "category": "Electronics",
+    "brand": "NextPlay",
+    "rating": 4.4
+  },
+  {
+    "name": "Portable Power Bank 20K",
+    "image": "https://i.ibb.co/hHqmVhc/2151039316.jpg",
+    "description": "20,000mAh portable power bank with fast charging support.",
+    "price": 59.99,
+    "category": "Electronics",
+    "brand": "VoltPlus",
+    "rating": 4.6
+  },
+  {
+    "name": "USB-C Hub 7-in-1",
+    "image": "https://i.ibb.co/hHqmVhc/2151039316.jpg",
+    "description": "7-in-1 USB-C hub with HDMI, USB, SD card reader, and power delivery.",
+    "price": 79.99,
+    "category": "Electronics",
+    "brand": "VoltPlus",
+    "rating": 4.7
+  },
+  {
+    "name": "Smart Light Bulb",
+    "image": "https://i.ibb.co/hHqmVhc/2151039316.jpg",
+    "description": "Wi-Fi-enabled smart light bulb with adjustable brightness and colors.",
+    "price": 29.99,
+    "category": "Electronics",
+    "brand": "VoltPlus",
+    "rating": 4.5
+  },
+  {
+    "name": "Leather Wallet",
+    "image": "https://i.ibb.co/hHqmVhc/2151039316.jpg",
+    "description": "Premium leather wallet with multiple card slots and RFID protection.",
+    "price": 39.99,
+    "category": "Accessories",
+    "brand": "LuxWallet",
+    "rating": 4.7
+  },
+  {
+    "name": "Sunglasses",
+    "image": "https://i.ibb.co/hHqmVhc/2151039316.jpg",
+    "description": "Polarized sunglasses with UV protection and scratch-resistant lenses.",
+    "price": 59.99,
+    "category": "Accessories",
+    "brand": "ShadePro",
+    "rating": 4.8
+  },
+  {
+    "name": "Wristwatch",
+    "image": "https://i.ibb.co/hHqmVhc/2151039316.jpg",
+    "description": "Stylish wristwatch with stainless steel band and water resistance.",
+    "price": 129.99,
+    "category": "Accessories",
+    "brand": "TimeMaster",
+    "rating": 4.6
+  },
+  {
+    "name": "Leather Belt",
+    "image": "https://i.ibb.co/hHqmVhc/2151039316.jpg",
+    "description": "Classic leather belt with adjustable buckle and durable stitching.",
+    "price": 49.99,
+    "category": "Accessories",
+    "brand": "BuckleUp",
+    "rating": 4.5
+  },
+  {
+    "name": "Beanie Hat",
+    "image": "https://i.ibb.co/hHqmVhc/2151039316.jpg",
+    "description": "Warm and stylish beanie hat made from soft, breathable material.",
+    "price": 19.99,
+    "category": "Accessories",
+    "brand": "HeadWarm",
+    "rating": 4.4
+  },
+  {
+    "name": "Running Shoes",
+    "image": "https://i.ibb.co/hHqmVhc/2151039316.jpg",
+    "description": "Lightweight running shoes with cushioned soles for maximum comfort.",
+    "price": 89.99,
+    "category": "Footwear",
+    "brand": "SportFlex",
+    "rating": 4.7
+  },
+  {
+    "name": "Basketball Sneakers",
+    "image": "https://i.ibb.co/hHqmVhc/2151039316.jpg",
+    "description": "High-top basketball sneakers with ankle support and grip.",
+    "price": 119.99,
+    "category": "Footwear",
+    "brand": "SportFlex",
+    "rating": 4.8
+  },
+  {
+    "name": "Tennis Shoes",
+    "image": "https://i.ibb.co/hHqmVhc/2151039316.jpg",
+    "description": "Durable tennis shoes with excellent traction for quick movements.",
+    "price": 99.99,
+    "category": "Footwear",
+    "brand": "SportFlex",
+    "rating": 4.6
+  },
+  {
+    "name": "Cross-Training Shoes",
+    "image": "https://i.ibb.co/hHqmVhc/2151039316.jpg",
+    "description": "Versatile cross-training shoes with breathable mesh upper.",
+    "price": 79.99,
+    "category": "Footwear",
+    "brand": "SportFlex",
+    "rating": 4.7
+  },
+  {
+    "name": "Leather Boots",
+    "image": "https://i.ibb.co/hHqmVhc/2151039316.jpg",
+    "description": "Premium leather boots with durable soles and waterproof finish.",
+    "price": 139.99,
+    "category": "Footwear",
+    "brand": "UrbanStride",
+    "rating": 4.8
+  },
+  {
+    "name": "Casual Loafers",
+    "image": "https://i.ibb.co/hHqmVhc/2151039316.jpg",
+    "description": "Stylish casual loafers with slip-on design and cushioned insoles.",
+    "price": 79.99,
+    "category": "Footwear",
+    "brand": "UrbanStride",
+    "rating": 4.6
+  },
+  {
+    "name": "Hiking Boots",
+    "image": "https://i.ibb.co/hHqmVhc/2151039316.jpg",
+    "description": "Sturdy hiking boots with reinforced toe and ankle support.",
+    "price": 149.99,
+    "category": "Footwear",
+    "brand": "MountainPro",
+    "rating": 4.9
+  },
+  {
+    "name": "Sandals",
+    "image": "https://i.ibb.co/hHqmVhc/2151039316.jpg",
+    "description": "Comfortable sandals with adjustable straps and durable soles.",
+    "price": 49.99,
+    "category": "Footwear",
+    "brand": "MountainPro",
+    "rating": 4.5
+  },
+  {
+    "name": "Air Conditioner",
+    "image": "https://i.ibb.co/hHqmVhc/2151039316.jpg",
+    "description": "Energy-efficient air conditioner with smart temperature control and low noise operation.",
+    "price": 399.99,
+    "category": "Home Appliances",
+    "brand": "CoolBreeze",
+    "rating": 4.8
+  },
+  {
+    "name": "Refrigerator",
+    "image": "https://i.ibb.co/hHqmVhc/2151039316.jpg",
+    "description": "Double-door refrigerator with quick cooling technology and large freezer capacity.",
+    "price": 799.99,
+    "category": "Home Appliances",
+    "brand": "CoolBreeze",
+    "rating": 4.7
+  },
+  {
+    "name": "Washing Machine",
+    "image": "https://i.ibb.co/hHqmVhc/2151039316.jpg",
+    "description": "High-efficiency washing machine with multiple wash programs and quick wash feature.",
+    "price": 599.99,
+    "category": "Home Appliances",
+    "brand": "CleanTech",
+    "rating": 4.6
+  },
+  {
+    "name": "Microwave Oven",
+    "image": "https://i.ibb.co/hHqmVhc/2151039316.jpg",
+    "description": "Compact microwave oven with digital controls and defrost function.",
+    "price": 149.99,
+    "category": "Home Appliances",
+    "brand": "CleanTech",
+    "rating": 4.5
+  },
+  {
+    "name": "Vacuum Cleaner",
+    "image": "https://i.ibb.co/hHqmVhc/2151039316.jpg",
+    "description": "Powerful vacuum cleaner with HEPA filter and multiple suction modes.",
+    "price": 199.99,
+    "category": "Home Appliances",
+    "brand": "CleanTech",
+    "rating": 4.7
+  }
+]

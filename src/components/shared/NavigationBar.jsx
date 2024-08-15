@@ -22,7 +22,7 @@ const NavigationBar = () => {
     }
   };
   return (
-    <Navbar>
+    <Navbar className="shadow-md ">
       <Navbar.Brand>
         <span className="self-center whitespace-nowrap text-xl font-semibold dark:text-white">
           EchoShopper
