@@ -1,9 +1,15 @@
-import { Spinner } from "flowbite-react";
+import { Pagination, Spinner } from "flowbite-react";
 import { useGetAllProductsQuery } from "../features/products/productsApi";
 import ProductCard from "../components/ProductCard";
+import { useState } from "react";
 
 const Home = () => {
-  const { data: products, isLoading, isSuccess } = useGetAllProductsQuery();
+  const [page, setPage] = useState(1);
+  const { data, isLoading, isSuccess } = useGetAllProductsQuery({ page });
+
+  const onPageChange = (page) => {
+    setPage(page);
+  };
 
   if (isLoading) {
     return (
@@ -14,10 +20,19 @@ const Home = () => {
   }
 
   return (
-    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
-      {products?.map((item) => (
-        <ProductCard key={item._id} product={item} />
-      ))}
+    <div>
+      <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-5">
+        {data?.products?.map((item) => (
+          <ProductCard key={item._id} product={item} />
+        ))}
+      </div>
+      <div className="flex overflow-x-auto sm:justify-center my-6">
+        <Pagination
+          currentPage={page}
+          totalPages={data?.totalPages}
+          onPageChange={onPageChange}
+        />
+      </div>
     </div>
   );
 };
