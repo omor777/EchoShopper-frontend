@@ -6,7 +6,8 @@
     "price": 149.99,
     "category": "Furniture",
     "brand": "ComfortPlus",
-    "rating": 4.5
+    "rating": 4.5,
+    "createdAt": "2024-06-15T10:45:00Z"
   },
   {
     "name": "Modern Coffee Table",
@@ -15,7 +16,8 @@
     "price": 99.99,
     "category": "Furniture",
     "brand": "ComfortPlus",
-    "rating": 4.6
+    "rating": 4.6,
+    "createdAt": "2024-06-20T14:30:00Z"
   },
   {
     "name": "Convertible Sofa Bed",
@@ -24,7 +26,8 @@
     "price": 349.99,
     "category": "Furniture",
     "brand": "SleepWell",
-    "rating": 4.7
+    "rating": 4.7,
+    "createdAt": "2024-06-25T18:15:00Z"
   },
   {
     "name": "Wooden Bookshelf",
@@ -33,7 +36,8 @@
     "price": 179.99,
     "category": "Furniture",
     "brand": "ComfortPlus",
-    "rating": 4.4
+    "rating": 4.4,
+    "createdAt": "2024-07-01T09:00:00Z"
   },
   {
     "name": "Dining Table Set",
@@ -42,7 +46,8 @@
     "price": 499.99,
     "category": "Furniture",
     "brand": "SleepWell",
-    "rating": 4.8
+    "rating": 4.8,
+    "createdAt": "2024-07-05T11:45:00Z"
   },
   {
     "name": "Recliner Chair",
@@ -51,7 +56,8 @@
     "price": 279.99,
     "category": "Furniture",
     "brand": "SleepWell",
-    "rating": 4.6
+    "rating": 4.6,
+    "createdAt": "2024-07-10T13:30:00Z"
   },
   {
     "name": "Gaming Chair",
@@ -60,7 +66,8 @@
     "price": 199.99,
     "category": "Furniture",
     "brand": "ComfortPlus",
-    "rating": 4.7
+    "rating": 4.7,
+    "createdAt": "2024-07-15T16:00:00Z"
   },
   {
     "name": "Smartphone A12",
@@ -69,7 +76,8 @@
     "price": 299.99,
     "category": "Electronics",
     "brand": "TechWave",
-    "rating": 4.5
+    "rating": 4.5,
+    "createdAt": "2024-08-01T08:00:00Z"
   },
   {
     "name": "Wireless Earbuds X1",
@@ -78,7 +86,8 @@
     "price": 129.99,
     "category": "Electronics",
     "brand": "TechWave",
-    "rating": 4.7
+    "rating": 4.7,
+    "createdAt": "2024-08-02T09:30:00Z"
   },
   {
     "name": "4K Smart TV",
@@ -87,7 +96,8 @@
     "price": 799.99,
     "category": "Electronics",
     "brand": "TechWave",
-    "rating": 4.8
+    "rating": 4.8,
+    "createdAt": "2024-08-03T10:15:00Z"
   },
   {
     "name": "Laptop Pro 15",
@@ -96,7 +106,8 @@
     "price": 1499.99,
     "category": "Electronics",
     "brand": "TechWave",
-    "rating": 4.9
+    "rating": 4.9,
+    "createdAt": "2024-08-04T11:45:00Z"
   },
   {
     "name": "Smartwatch S7",
@@ -105,7 +116,8 @@
     "price": 249.99,
     "category": "Electronics",
     "brand": "GizmoGear",
-    "rating": 4.6
+    "rating": 4.6,
+    "createdAt": "2024-08-05T12:30:00Z"
   },
   {
     "name": "Noise-Cancelling Headphones",
@@ -114,7 +126,8 @@
     "price": 299.99,
     "category": "Electronics",
     "brand": "GizmoGear",
-    "rating": 4.7
+    "rating": 4.7,
+    "createdAt": "2024-08-06T13:00:00Z"
   },
   {
     "name": "Bluetooth Speaker Mini",
@@ -123,7 +136,8 @@
     "price": 89.99,
     "category": "Electronics",
     "brand": "GizmoGear",
-    "rating": 4.5
+    "rating": 4.5,
+    "createdAt": "2024-08-07T14:15:00Z"
   },
   {
     "name": "Tablet Pro 10.5",
@@ -132,7 +146,8 @@
     "price": 599.99,
     "category": "Electronics",
     "brand": "GizmoGear",
-    "rating": 4.8
+    "rating": 4.8,
+    "createdAt": "2024-08-08T15:30:00Z"
   },
   {
     "name": "Gaming Console X",
@@ -141,7 +156,8 @@
     "price": 499.99,
     "category": "Electronics",
     "brand": "NextPlay",
-    "rating": 4.9
+    "rating": 4.9,
+    "createdAt": "2024-08-09T16:00:00Z"
   },
   {
     "name": "VR Headset 2.0",
@@ -150,7 +166,8 @@
     "price": 399.99,
     "category": "Electronics",
     "brand": "NextPlay",
-    "rating": 4.7
+    "rating": 4.7,
+    "createdAt": "2024-08-10T17:00:00Z"
   },
   {
     "name": "Smart Home Security Camera",
@@ -159,7 +176,8 @@
     "price": 149.99,
     "category": "Electronics",
     "brand": "NextPlay",
-    "rating": 4.6
+    "rating": 4.6,
+    "createdAt": "2024-08-11T18:00:00Z"
   },
   {
     "name": "Wireless Charging Pad",
@@ -168,7 +186,8 @@
     "price": 49.99,
     "category": "Electronics",
     "brand": "NextPlay",
-    "rating": 4.4
+    "rating": 4.4,
+    "createdAt": "2024-08-12T19:00:00Z"
   },
   {
     "name": "Portable Power Bank 20K",
@@ -177,7 +196,8 @@
     "price": 59.99,
     "category": "Electronics",
     "brand": "VoltPlus",
-    "rating": 4.6
+    "rating": 4.6,
+    "createdAt": "2024-08-13T20:00:00Z"
   },
   {
     "name": "USB-C Hub 7-in-1",
@@ -186,7 +206,8 @@
     "price": 79.99,
     "category": "Electronics",
     "brand": "VoltPlus",
-    "rating": 4.7
+    "rating": 4.7,
+    "createdAt": "2024-08-14T21:00:00Z"
   },
   {
     "name": "Smart Light Bulb",
@@ -195,7 +216,8 @@
     "price": 29.99,
     "category": "Electronics",
     "brand": "VoltPlus",
-    "rating": 4.5
+    "rating": 4.5,
+    "createdAt": "2024-08-15T22:00:00Z"
   },
   {
     "name": "Leather Wallet",
@@ -204,7 +226,8 @@
     "price": 39.99,
     "category": "Accessories",
     "brand": "LuxWallet",
-    "rating": 4.7
+    "rating": 4.7,
+    "createdAt": "2024-07-01T12:00:00Z"
   },
   {
     "name": "Sunglasses",
@@ -212,8 +235,9 @@
     "description": "Polarized sunglasses with UV protection and scratch-resistant lenses.",
     "price": 59.99,
     "category": "Accessories",
-    "brand": "ShadePro",
-    "rating": 4.8
+    "brand": "LuxWallet",
+    "rating": 4.8,
+    "createdAt": "2024-07-02T14:30:00Z"
   },
   {
     "name": "Wristwatch",
@@ -221,8 +245,9 @@
     "description": "Stylish wristwatch with stainless steel band and water resistance.",
     "price": 129.99,
     "category": "Accessories",
-    "brand": "TimeMaster",
-    "rating": 4.6
+    "brand": "LuxWallet",
+    "rating": 4.6,
+    "createdAt": "2024-07-03T08:45:00Z"
   },
   {
     "name": "Leather Belt",
@@ -230,8 +255,9 @@
     "description": "Classic leather belt with adjustable buckle and durable stitching.",
     "price": 49.99,
     "category": "Accessories",
-    "brand": "BuckleUp",
-    "rating": 4.5
+    "brand": "LuxWallet",
+    "rating": 4.5,
+    "createdAt": "2024-07-04T10:15:00Z"
   },
   {
     "name": "Beanie Hat",
@@ -239,8 +265,9 @@
     "description": "Warm and stylish beanie hat made from soft, breathable material.",
     "price": 19.99,
     "category": "Accessories",
-    "brand": "HeadWarm",
-    "rating": 4.4
+    "brand": "LuxWallet",
+    "rating": 4.4,
+    "createdAt": "2024-07-05T09:00:00Z"
   },
   {
     "name": "Running Shoes",
@@ -249,7 +276,8 @@
     "price": 89.99,
     "category": "Footwear",
     "brand": "SportFlex",
-    "rating": 4.7
+    "rating": 4.7,
+    "createdAt": "2024-07-01T08:30:00Z"
   },
   {
     "name": "Basketball Sneakers",
@@ -258,7 +286,8 @@
     "price": 119.99,
     "category": "Footwear",
     "brand": "SportFlex",
-    "rating": 4.8
+    "rating": 4.8,
+    "createdAt": "2024-07-02T09:45:00Z"
   },
   {
     "name": "Tennis Shoes",
@@ -267,7 +296,8 @@
     "price": 99.99,
     "category": "Footwear",
     "brand": "SportFlex",
-    "rating": 4.6
+    "rating": 4.6,
+    "createdAt": "2024-07-03T10:15:00Z"
   },
   {
     "name": "Cross-Training Shoes",
@@ -276,7 +306,8 @@
     "price": 79.99,
     "category": "Footwear",
     "brand": "SportFlex",
-    "rating": 4.7
+    "rating": 4.7,
+    "createdAt": "2024-07-04T11:00:00Z"
   },
   {
     "name": "Leather Boots",
@@ -285,7 +316,8 @@
     "price": 139.99,
     "category": "Footwear",
     "brand": "UrbanStride",
-    "rating": 4.8
+    "rating": 4.8,
+    "createdAt": "2024-07-05T12:15:00Z"
   },
   {
     "name": "Casual Loafers",
@@ -294,7 +326,8 @@
     "price": 79.99,
     "category": "Footwear",
     "brand": "UrbanStride",
-    "rating": 4.6
+    "rating": 4.6,
+    "createdAt": "2024-07-06T13:30:00Z"
   },
   {
     "name": "Hiking Boots",
@@ -302,8 +335,9 @@
     "description": "Sturdy hiking boots with reinforced toe and ankle support.",
     "price": 149.99,
     "category": "Footwear",
-    "brand": "MountainPro",
-    "rating": 4.9
+    "brand": "UrbanStride",
+    "rating": 4.9,
+    "createdAt": "2024-07-07T14:00:00Z"
   },
   {
     "name": "Sandals",
@@ -311,8 +345,9 @@
     "description": "Comfortable sandals with adjustable straps and durable soles.",
     "price": 49.99,
     "category": "Footwear",
-    "brand": "MountainPro",
-    "rating": 4.5
+    "brand": "UrbanStride",
+    "rating": 4.5,
+    "createdAt": "2024-07-08T15:45:00Z"
   },
   {
     "name": "Air Conditioner",
@@ -321,7 +356,8 @@
     "price": 399.99,
     "category": "Home Appliances",
     "brand": "CoolBreeze",
-    "rating": 4.8
+    "rating": 4.8,
+    "createdAt": "2024-07-01T08:00:00Z"
   },
   {
     "name": "Refrigerator",
@@ -330,7 +366,8 @@
     "price": 799.99,
     "category": "Home Appliances",
     "brand": "CoolBreeze",
-    "rating": 4.7
+    "rating": 4.7,
+    "createdAt": "2024-07-02T09:30:00Z"
   },
   {
     "name": "Washing Machine",
@@ -338,8 +375,9 @@
     "description": "High-efficiency washing machine with multiple wash programs and quick wash feature.",
     "price": 599.99,
     "category": "Home Appliances",
-    "brand": "CleanTech",
-    "rating": 4.6
+    "brand": "CoolBreeze",
+    "rating": 4.6,
+    "createdAt": "2024-07-03T10:15:00Z"
   },
   {
     "name": "Microwave Oven",
@@ -347,8 +385,9 @@
     "description": "Compact microwave oven with digital controls and defrost function.",
     "price": 149.99,
     "category": "Home Appliances",
-    "brand": "CleanTech",
-    "rating": 4.5
+    "brand": "CoolBreeze",
+    "rating": 4.5,
+    "createdAt": "2024-07-04T11:45:00Z"
   },
   {
     "name": "Vacuum Cleaner",
@@ -356,7 +395,8 @@
     "description": "Powerful vacuum cleaner with HEPA filter and multiple suction modes.",
     "price": 199.99,
     "category": "Home Appliances",
-    "brand": "CleanTech",
-    "rating": 4.7
+    "brand": "CoolBreeze",
+    "rating": 4.7,
+    "createdAt": "2024-07-05T12:30:00Z"
   }
 ]

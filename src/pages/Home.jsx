@@ -8,13 +8,22 @@ import SortGroup from "../components/SortGroup";
 
 const Home = () => {
   const [page, setPage] = useState(1);
-  const { search,sort } = useSelector((state) => state.product);
+  const { search, sort, categories,brands } = useSelector((state) => state.product);
 
-  const { data, isLoading, isSuccess } = useGetAllProductsQuery({
-    page,
-    search,
-    sort
-  });
+  const { data, isLoading, isSuccess } = useGetAllProductsQuery(
+    {
+      page,
+      search,
+      sort,
+      categories,
+      brands
+    },
+    {
+      refetchOnMountOrArgChange: true,
+    }
+  );
+
+  // console.log(categories);
 
   const onPageChange = (page) => {
     setPage(page);
@@ -30,7 +39,7 @@ const Home = () => {
 
   return (
     <div>
-      <div className="flex flex-col md:flex-row items-center justify-between flex-wrap mb-6">
+      <div className="flex flex-col md:flex-row items-center justify-between flex-wrap mb-6 gap-4 ">
         <SearchGroup />
         <SortGroup />
       </div>
@@ -39,6 +48,7 @@ const Home = () => {
           <ProductCard key={item._id} product={item} />
         ))}
       </div>
+
       <div className="flex overflow-x-auto sm:justify-center my-6">
         <Pagination
           currentPage={page}
