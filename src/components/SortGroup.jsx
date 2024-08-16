@@ -18,7 +18,7 @@ const SortGroup = () => {
         id="sort"
         className="border-none rounded text-center h-12 uppercase text-sm tracking-wider "
       >
-        <option value="default">Default</option>
+        <option value="" disabled>Sort by</option>
 
         <option value="price-high-to-low">Price High to Low</option>
         <option value="price-low-to-high">Price Low to High</option>

@@ -122,9 +122,9 @@ const SidebarComponent = () => {
                     <Checkbox
                       onChange={handleBrandChange}
                       value={value}
-                      id={id}
+                      id={label}
                     />
-                    <Label htmlFor={id} className="select-none">
+                    <Label htmlFor={label} className="select-none">
                       {value}
                     </Label>
                   </div>

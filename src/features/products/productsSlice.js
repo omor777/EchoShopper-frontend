@@ -31,14 +31,18 @@ const productsSlice = createSlice({
       if (checked) {
         state.brands.push(value);
       } else {
-        const index = state.brands.findIndex((item) => value);
+        const index = state.brands.findIndex((item) => item === value);
         state.brands.splice(index, 1);
       }
     },
   },
 });
 
-export const { setSearchResult, setSortResult, setCategoriesResult,setBrandsResult } =
-  productsSlice.actions;
+export const {
+  setSearchResult,
+  setSortResult,
+  setCategoriesResult,
+  setBrandsResult,
+} = productsSlice.actions;
 
 export default productsSlice.reducer;
