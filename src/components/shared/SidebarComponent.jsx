@@ -2,13 +2,13 @@ import { Checkbox, Drawer, HR, Label, Sidebar } from "flowbite-react";
 import { useState } from "react";
 import { GiRunningShoe } from "react-icons/gi";
 import { useForm } from "react-hook-form";
-import { useDispatch } from "react-redux";
+import { useDispatch, useSelector } from "react-redux";
 import {
   setBrandsResult,
   setCategoriesResult,
 } from "../../features/products/productsSlice";
 
-const categories = [
+const categoriesData = [
   {
     id: 1,
     label: "electronics",
@@ -36,7 +36,7 @@ const categories = [
   },
 ];
 
-const brands = [
+const brandsData = [
   {
     id: 1,
     label: "comfortPlus",
@@ -90,6 +90,8 @@ const brands = [
 ];
 
 const SidebarComponent = () => {
+  const { brands, categories } = useSelector((state) => state.product);
+
   const dispatch = useDispatch();
 
   const handleCategoriesChange = (e) => {
@@ -116,13 +118,14 @@ const SidebarComponent = () => {
         <Sidebar.Items className="">
           <Sidebar.ItemGroup>
             <Sidebar.Collapse open={true} label="Brands">
-              {brands.map(({ id, label, value }) => (
+              {brandsData.map(({ id, label, value }) => (
                 <Sidebar.Item key={id}>
                   <div className="flex items-center gap-2">
                     <Checkbox
                       onChange={handleBrandChange}
                       value={value}
                       id={label}
+                      checked={brands.includes(value)}
                     />
                     <Label htmlFor={label} className="select-none">
                       {value}
@@ -134,13 +137,14 @@ const SidebarComponent = () => {
           </Sidebar.ItemGroup>
           <Sidebar.ItemGroup>
             <Sidebar.Collapse label="Categories" open={true}>
-              {categories.map(({ id, label, value }) => (
+              {categoriesData.map(({ id, label, value }) => (
                 <Sidebar.Item key={id}>
                   <div className="flex items-center gap-2">
                     <Checkbox
                       onChange={handleCategoriesChange}
                       id={id}
                       value={value}
+                      checked={categories.includes(value)}
                     />
                     <Label htmlFor={id} className="select-none block">
                       {value}

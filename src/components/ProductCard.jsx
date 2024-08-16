@@ -27,7 +27,7 @@ const ProductCard = ({ product = {} }) => {
           <span className="text-3xl font-bold text-gray-900 dark:text-white">
             ${price}
           </span>
-          <Button>Add To Cart</Button>
+          <Button className="z-0">Add To Cart</Button>
         </div>
       </Card>
     </div>

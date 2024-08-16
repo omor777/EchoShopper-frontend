@@ -5,11 +5,14 @@ import { Link, NavLink, useLocation } from "react-router-dom";
 import { auth } from "../../firebase/firebase.config";
 import { setError, singOutUser } from "../../features/auth/authSlice";
 import { toast } from "react-toastify";
+import { FaFilter } from "react-icons/fa";
+import { toggleSidebar } from "../../features/sidebar/sidebarSlice";
 
 const NavigationBar = () => {
   const { pathname } = useLocation();
   const { isLoggedIn, error } = useSelector((state) => state.auth);
   const dispatch = useDispatch();
+
   const handleSignOutUser = async () => {
     try {
       await signOut(auth);
@@ -21,12 +24,20 @@ const NavigationBar = () => {
       console.error(e);
     }
   };
+
+  const handleSidebarOpen = () => {
+    dispatch(toggleSidebar(true));
+  };
+
   return (
-    <Navbar className="shadow-md ">
+    <Navbar className="shadow-md bg-white">
       <Navbar.Brand>
-        <span className="self-center whitespace-nowrap text-xl font-semibold dark:text-white">
+        <span className="self-center whitespace-nowrap text-xl font-semibold dark:text-white lg:block hidden">
           EchoShopper
         </span>
+        <Button onClick={handleSidebarOpen} size="sm" className="lg:hidden">
+          <FaFilter className="h-5 w-5" />
+        </Button>
       </Navbar.Brand>
 
       <Navbar.Toggle />
