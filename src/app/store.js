@@ -4,6 +4,7 @@ import { persistReducer } from "redux-persist";
 import persistStore from "redux-persist/es/persistStore";
 import authReducer from "../features/auth/authSlice";
 import { productsApi } from "../features/products/productsApi";
+import productsReducer from "../features/products/productsSlice";
 const persistConfig = {
   key: "root",
   version: 1,
@@ -13,6 +14,7 @@ const persistConfig = {
 
 const rootReducer = combineReducers({
   auth: authReducer,
+  product: productsReducer,
   [productsApi.reducerPath]: productsApi.reducer,
 });
 

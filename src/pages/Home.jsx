@@ -2,10 +2,14 @@ import { Pagination, Spinner } from "flowbite-react";
 import { useGetAllProductsQuery } from "../features/products/productsApi";
 import ProductCard from "../components/ProductCard";
 import { useState } from "react";
+import SearchGroup from "../components/SearchGroup";
+import { useSelector } from "react-redux";
 
 const Home = () => {
   const [page, setPage] = useState(1);
-  const { data, isLoading, isSuccess } = useGetAllProductsQuery({ page });
+  const { search } = useSelector((state) => state.product);
+
+const { data, isLoading, isSuccess } = useGetAllProductsQuery({ page,search });
 
   const onPageChange = (page) => {
     setPage(page);
@@ -21,6 +25,7 @@ const Home = () => {
 
   return (
     <div>
+      <SearchGroup />
       <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-5">
         {data?.products?.map((item) => (
           <ProductCard key={item._id} product={item} />
