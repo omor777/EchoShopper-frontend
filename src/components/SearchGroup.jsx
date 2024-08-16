@@ -12,7 +12,7 @@ const SearchGroup = () => {
 
   return (
     <form onSubmit={handleSearch}>
-      <div className="flex items-center mb-5 bg-red-200 h-12 rounded max-w-[300px] overflow-hidden ">
+      <div className="flex items-center  bg-red-200 h-12 rounded max-w-[300px] overflow-hidden ">
         <input
           type="search"
           name="search"

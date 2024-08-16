@@ -2,6 +2,7 @@ import { createSlice } from "@reduxjs/toolkit";
 
 const initialState = {
   search: "",
+  sort: "",
 };
 
 const productsSlice = createSlice({
@@ -11,9 +12,12 @@ const productsSlice = createSlice({
     setSearchResult(state, action) {
       state.search = action.payload;
     },
+    setSortResult(state, action) {
+      state.sort = action.payload;
+    },
   },
 });
 
-export const { setSearchResult } = productsSlice.actions;
+export const { setSearchResult, setSortResult } = productsSlice.actions;
 
 export default productsSlice.reducer;

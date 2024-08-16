@@ -4,12 +4,17 @@ import ProductCard from "../components/ProductCard";
 import { useState } from "react";
 import SearchGroup from "../components/SearchGroup";
 import { useSelector } from "react-redux";
+import SortGroup from "../components/SortGroup";
 
 const Home = () => {
   const [page, setPage] = useState(1);
-  const { search } = useSelector((state) => state.product);
+  const { search,sort } = useSelector((state) => state.product);
 
-const { data, isLoading, isSuccess } = useGetAllProductsQuery({ page,search });
+  const { data, isLoading, isSuccess } = useGetAllProductsQuery({
+    page,
+    search,
+    sort
+  });
 
   const onPageChange = (page) => {
     setPage(page);
@@ -25,7 +30,10 @@ const { data, isLoading, isSuccess } = useGetAllProductsQuery({ page,search });
 
   return (
     <div>
-      <SearchGroup />
+      <div className="flex flex-col md:flex-row items-center justify-between flex-wrap mb-6">
+        <SearchGroup />
+        <SortGroup />
+      </div>
       <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-5">
         {data?.products?.map((item) => (
           <ProductCard key={item._id} product={item} />
