@@ -1,9 +1,7 @@
-import RangeSlider from "react-range-slider-input";
-import "react-range-slider-input/dist/style.css";
 
-import { useRef, useState } from "react";
+import { useState } from "react";
 import { Button, TextInput } from "flowbite-react";
-import { useDispatch, useSelector } from "react-redux";
+import { useDispatch } from "react-redux";
 import { setPriceRangeResult } from "../features/products/productsSlice";
 
 const PriceRangeGroup = () => {
@@ -23,7 +21,6 @@ const PriceRangeGroup = () => {
       });
     }
   };
-
 
   const handleSubmit = (e) => {
     e.preventDefault();
