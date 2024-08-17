@@ -41,13 +41,21 @@ const NavigationBar = () => {
       </Navbar.Brand>
 
       <Navbar.Toggle />
-      <Navbar.Collapse className="md:items-center">
+      <Navbar.Collapse className="md:[&>ul]:items-center">
         <Navbar.Link active={pathname === "/"} as={Link} to="/">
           Home
         </Navbar.Link>
         {isLoggedIn ? (
-          <Navbar.Link as="div">
-            <Button onClick={handleSignOutUser}>Log Out</Button>
+          <Navbar.Link as="div" className="p-0 mt-3 md:mt-0">
+            <Button
+              color="warning"
+              className="rounded"
+              size="sm"
+              fullSized
+              onClick={handleSignOutUser}
+            >
+              Log Out
+            </Button>
           </Navbar.Link>
         ) : (
           <>

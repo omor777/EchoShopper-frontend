@@ -15,7 +15,7 @@ const DesktopLayout = () => {
   };
 
   return (
-    <div className="grid grid-rows-[auto_1fr_auto]  lg:grid-cols-[260px_1fr] container mx-auto ">
+    <div className="grid grid-rows-[auto_1fr_auto]  lg:grid-cols-[260px_1fr] container mx-auto min-h-screen">
       <header className="col-span-2 mb-3 sticky top-0 lg:z-50 z-10">
         <NavigationBar />
       </header>
