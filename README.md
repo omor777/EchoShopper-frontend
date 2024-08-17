@@ -1,8 +1,30 @@
-# React + Vite
+### Clone this repositories
+```
+git clone https://github.com/omor777/EchoShopper-frontend
+```
+### Install dependencies
+```
+yarn install
+```
+### Go to the firebase/firebase.config.js and replace
+```
+import { initializeApp } from "firebase/app";
+import {getAuth} from 'firebase/auth'
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+const firebaseConfig = {
+  apiKey: <your_firebase_apiKey>,
+  authDomain: <your_firebase_authDomain>,
+  projectId: <your_firebase_projectId>,
+  storageBucket: <your_firebase_storageBucket>,
+  messagingSenderId: <your_firebase_messagingSenderId>,
+  appId: <your_firebase_appId>,
+};
 
-Currently, two official plugins are available:
+const app = initializeApp(firebaseConfig);
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+export const auth = getAuth(app);
+```
+### Run project
+```
+yarn dev
+```
