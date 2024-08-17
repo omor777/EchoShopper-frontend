@@ -21,7 +21,7 @@ const SearchGroup = () => {
         />
         <button
           type="submit"
-          className="bg-teal-500 h-full w-14 flex items-center justify-center"
+          className="bg-teal-600 h-full w-14 flex items-center justify-center"
         >
           <IoSearch className="h-6 w-8 text-white" />
         </button>

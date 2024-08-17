@@ -12,6 +12,9 @@ import {
 } from "../features/auth/authSlice";
 import { useNavigate } from "react-router-dom";
 import { toast } from "react-toastify";
+
+
+
 const SingUp = () => {
   const { handleSubmit, register } = useForm({
     defaultValues: {

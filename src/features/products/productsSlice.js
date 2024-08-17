@@ -5,6 +5,7 @@ const initialState = {
   sort: "",
   categories: [],
   brands: [],
+  priceRange: [],
 };
 
 const productsSlice = createSlice({
@@ -35,6 +36,9 @@ const productsSlice = createSlice({
         state.brands.splice(index, 1);
       }
     },
+    setPriceRangeResult(state, action) {
+      state.priceRange = action.payload;
+    },
   },
 });
 
@@ -43,6 +47,7 @@ export const {
   setSortResult,
   setCategoriesResult,
   setBrandsResult,
+  setPriceRangeResult,
 } = productsSlice.actions;
 
 export default productsSlice.reducer;

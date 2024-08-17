@@ -7,6 +7,7 @@ import {
   setBrandsResult,
   setCategoriesResult,
 } from "../../features/products/productsSlice";
+import PriceRangeGroup from "../PriceRangeGroup";
 
 const categoriesData = [
   {
@@ -117,6 +118,9 @@ const SidebarComponent = () => {
 
         <Sidebar.Items className="">
           <Sidebar.ItemGroup>
+            <PriceRangeGroup />
+          </Sidebar.ItemGroup>
+          <Sidebar.ItemGroup>
             <Sidebar.Collapse open={true} label="Brands">
               {brandsData.map(({ id, label, value }) => (
                 <Sidebar.Item key={id}>
@@ -142,11 +146,11 @@ const SidebarComponent = () => {
                   <div className="flex items-center gap-2">
                     <Checkbox
                       onChange={handleCategoriesChange}
-                      id={id}
+                      id={label}
                       value={value}
                       checked={categories.includes(value)}
                     />
-                    <Label htmlFor={id} className="select-none block">
+                    <Label htmlFor={label} className="select-none block">
                       {value}
                     </Label>
                   </div>

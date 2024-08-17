@@ -8,15 +8,16 @@ import SortGroup from "../components/SortGroup";
 
 const Home = () => {
   const [page, setPage] = useState(1);
-  const { search, sort, categories,brands } = useSelector((state) => state.product);
+  const { search, sort, categories,brands,priceRange } = useSelector((state) => state.product);
 
-  const { data, isLoading, isSuccess } = useGetAllProductsQuery(
+  const { data, isLoading, } = useGetAllProductsQuery(
     {
       page,
       search,
       sort,
       categories,
-      brands
+      brands,
+     priceRange
     },
     {
       refetchOnMountOrArgChange: true,
