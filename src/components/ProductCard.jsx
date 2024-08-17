@@ -5,7 +5,11 @@ const ProductCard = ({ product = {} }) => {
 
   return (
     <div>
-      <Card imgAlt={name} imgSrc={image}>
+      <Card
+        imgAlt={name}
+        imgSrc={image}
+        className="[&>img]:h-[230px] [&>img]:object-cover"
+      >
         <h5 className="text-xl font-semibold tracking-tight text-gray-900 dark:text-white">
           {name}
         </h5>
