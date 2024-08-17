@@ -32,7 +32,7 @@ const NavigationBar = () => {
   return (
     <Navbar className="shadow-md bg-white">
       <Navbar.Brand>
-        <span className="self-center whitespace-nowrap text-xl font-semibold dark:text-white lg:block hidden">
+        <span className="self-center whitespace-nowrap text-xl font-semibold dark:text-white lg:block hidden text-teal-600">
           EchoShopper
         </span>
         <Button onClick={handleSidebarOpen} size="sm" className="lg:hidden">

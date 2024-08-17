@@ -7,7 +7,6 @@ import { useDispatch, useSelector } from "react-redux";
 import { setPriceRangeResult } from "../features/products/productsSlice";
 
 const PriceRangeGroup = () => {
-  // const { priceRange } = useSelector((state) => state.product);
   const [priceRange, setPriceRange] = useState([500, 800]);
 
   const dispatch = useDispatch();
@@ -25,11 +24,10 @@ const PriceRangeGroup = () => {
     }
   };
 
-  console.log(priceRange);
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    dispatch(setPriceRangeResult(priceRange))
+    dispatch(setPriceRangeResult(priceRange));
   };
 
   return (

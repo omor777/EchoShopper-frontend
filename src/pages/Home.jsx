@@ -8,16 +8,20 @@ import SortGroup from "../components/SortGroup";
 
 const Home = () => {
   const [page, setPage] = useState(1);
-  const { search, sort, categories,brands,priceRange } = useSelector((state) => state.product);
+  const { search, sort, categories, brands, priceRange } = useSelector(
+    (state) => state.product
+  );
 
-  const { data, isLoading, } = useGetAllProductsQuery(
+  console.log(priceRange);
+
+  const { data, isLoading } = useGetAllProductsQuery(
     {
       page,
       search,
       sort,
       categories,
       brands,
-     priceRange
+      priceRange,
     },
     {
       refetchOnMountOrArgChange: true,
@@ -50,7 +54,7 @@ const Home = () => {
         ))}
       </div>
 
-      <div className="flex overflow-x-auto sm:justify-center my-6">
+      <div className="flex overflow-x-auto sm:justify-center mt-6">
         <Pagination
           currentPage={page}
           totalPages={data?.totalPages}
