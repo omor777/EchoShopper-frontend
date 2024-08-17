@@ -12,8 +12,6 @@ const Home = () => {
     (state) => state.product
   );
 
-  console.log(priceRange);
-
   const { data, isLoading } = useGetAllProductsQuery(
     {
       page,
